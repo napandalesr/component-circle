@@ -1,0 +1,31 @@
+.circle:hover > .container {
+  clip-path: inset(0px round 20% 0px 0px 0px);
+}
+.circle:hover > .container2 {
+  clip-path: inset(0px round  0px 20% 0px  0px);
+}
+.circle:hover > .container3 {
+  clip-path: inset(0px round  0px  0px  0px 20%);
+}
+.circle:hover > .container4 {
+  clip-path: inset(0px round  0px  0px 20% 0px );
+}
+
+
+.container {
+  clip-path: inset(0px round 100% 0px 0px 0px);
+}
+
+
+.container2 {
+  clip-path: inset(0px round  0px 100% 0px  0px);
+}
+
+.container3 {
+  clip-path: inset(0px round  0px  0px  0px 100%);
+}
+
+.container4 {
+  clip-path: inset(0px round  0px  0px 100% 0px );
+}
+
